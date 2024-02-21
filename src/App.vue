@@ -4,5 +4,10 @@
 
 <script lang="ts">
 import "./App.scss";
-export default {};
+import { RouterView } from "vue-router";
+export default {
+  components:{
+    RouterView
+  }
+};
 </script>

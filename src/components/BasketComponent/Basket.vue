@@ -116,12 +116,14 @@ import TypeBasketComponent from "./TypeBasketComponent";
 import TypeBasket from "../../Types/TypeBasket";
 import Union from "../../data/images/Union.vue";
 import Plus from "../../data/images/plus.vue";
+import { RouterLink } from "vue-router";
 
 export default {
   components: {
     Home,
     Union,
     Plus,
+    RouterLink
   },
   data(): TypeBasketComponent {
     return {

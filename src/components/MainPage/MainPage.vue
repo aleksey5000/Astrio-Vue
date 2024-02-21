@@ -25,12 +25,14 @@ import Basket from "../../data/images/basket.vue";
 import BrandsComponent from "../../components/BrandsComponent/BrandsComponent.vue";
 import CatalogComponent from "../../components/CatalogComponent/CatalogComponent.vue";
 import useStore from "../../store/Store";
+import { RouterLink } from "vue-router";
 
 export default {
   components: {
     Basket,
     BrandsComponent,
     CatalogComponent,
+    RouterLink
   },
   data() {
     return {
