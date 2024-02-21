@@ -15,7 +15,7 @@ const routes = [
 
 const router = createRouter({
   routes,
-  history: createWebHistory('https://aleksey5000.github.io/'),
+  history: createWebHistory(process.env.BASE_URL),
 });
 
 export { router };
