@@ -1,7 +1,7 @@
 <template>
   <header class="mainPageHeader">
     <div>
-      <img src="../../data/images/logo.png" alt="logo" />
+      <img src="./data/images/logo.png" alt="logo" />
     </div>
     <div class="basket">
       <div class="count_in_basket" v-if="store.basket.length > 0">
@@ -22,10 +22,10 @@
 
 <script lang="ts">
 import "./App.scss";
-import Basket from "../../data/images/basket.vue";
-import BrandsComponent from "../../components/BrandsComponent/BrandsComponent.vue";
-import CatalogComponent from "../../components/CatalogComponent/CatalogComponent.vue";
-import useStore from "../../store/Store";
+import Basket from "./data/images/basket.vue";
+import BrandsComponent from "./components/BrandsComponent/BrandsComponent.vue";
+import CatalogComponent from "./components/CatalogComponent/CatalogComponent.vue";
+import useStore from "./store/Store";
 
 export default {
   components: {
