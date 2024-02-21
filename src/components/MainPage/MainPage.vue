@@ -21,7 +21,6 @@
   </template>
   
   <script lang="ts">
-  import "./App.scss";
   import Basket from "../../data/images/basket.vue";
   import BrandsComponent from "../../components/BrandsComponent/BrandsComponent.vue";
   import CatalogComponent from "../../components/CatalogComponent/CatalogComponent.vue";
