@@ -1,11 +1,11 @@
-import App from "../App.vue";
+import MainPage from "../components/MainPage/MainPage.vue";
 import Basket from "../components/BasketComponent/Basket.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
     path: "/",
-    component: App,
+    component: MainPage,
   },
   {
     path: "/basket",
@@ -15,7 +15,7 @@ const routes = [
 
 const router = createRouter({
   routes,
-  history: createWebHistory(),
+  history: createWebHistory('https://aleksey5000.github.io/'),
 });
 
 export { router };
