@@ -1,13 +1,12 @@
 <template>
-  <router-view/>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script lang="ts">
 import "./App.scss";
-import { RouterView } from "vue-router";
 export default {
-  components:{
-    RouterView
   }
-};
+
 </script>
