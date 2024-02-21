@@ -1,10 +1,9 @@
 <template>
-  <div class="app">
-    <router-view></router-view>
-  </div>
+    <router-view/>
 </template>
 
 <script lang="ts">
 import "./App.scss";
-export default {};
+export default {
+  }
 </script>

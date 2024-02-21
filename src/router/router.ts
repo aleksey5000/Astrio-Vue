@@ -1,6 +1,6 @@
 import MainPage from "../components/MainPage/MainPage.vue";
 import Basket from "../components/BasketComponent/Basket.vue";
-import { createRouter, createWebHistory } from "vue-router";
+import { createMemoryHistory, createRouter } from "vue-router";
 
 const routes = [
   {
@@ -15,7 +15,7 @@ const routes = [
 
 const router = createRouter({
   routes,
-  history: createWebHistory(),
+  history: createMemoryHistory(),
 });
 
 export { router };
