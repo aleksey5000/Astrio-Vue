@@ -67,9 +67,6 @@ export default {
   padding-inline: 10px;
   z-index: 1;
 }
-.allBrandsButton {
-  padding: 10px;
-}
 .brands_list button {
   font-size: 16px;
   margin: 5px 0;

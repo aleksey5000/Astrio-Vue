@@ -1,0 +1,33 @@
+.backgroundOfColorOption {
+  border: 2px solid;
+}
+.sizeOption {
+  border: solid;
+}
+
+.backgroundOfColorOption[data-choosen-state="false"] {
+  border-color: white;
+}
+.backgroundOfColorOption[data-choosen-state="true"] {
+  border-color: black;
+}
+.sizeOption[data-choosen-state="false"] {
+  border-color: grey;
+  border-width: 1px;
+}
+.sizeOption[data-choosen-state="true"] {
+  border-color: black;
+  border-width: 2px;
+}
+.brands[data-brand-button-visible="true"] {
+  left: -20px;
+}
+.brands[data-brand-button-visible="false"] {
+  left: -150px;
+}
+.brandButton[data-brand-button-visible="true"] {
+  left: 58px;
+}
+.brandButton[data-brand-button-visible="false"] {
+  left: -42px;
+}

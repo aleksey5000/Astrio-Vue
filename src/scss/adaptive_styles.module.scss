@@ -1,0 +1,99 @@
+@media (max-width: 1023px) {
+  .catalog {
+    padding-top: 15px;
+  }
+  .catalog h1 {
+    font-size: 1.5em;
+  }
+  .allBrandsButton {
+    font-size: 0.7em;
+  }
+  .brands {
+    width: 150px;
+  }
+  .catalog_list {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .totalPrice {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 767px) {
+  .catalog {
+    padding-top: 23px;
+  }
+  .catalog h1 {
+    font-size: 1em;
+  }
+  .allBrandsButton {
+    font-size: 0.5em;
+  }
+  .brandButton {
+    display: block;
+    top: 72px;
+  }
+  .brands_list {
+    border-right: none;
+  }
+  .brands {
+    width: 100px;
+    position: absolute;
+    background-color: white;
+    padding-right: 0px;
+    border-bottom-right-radius: 20px;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+  }
+  .catalog_list {
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .addButton svg {
+    height: 20px;
+    width: 20px;
+  }
+  .headOfTable {
+    display: none;
+  }
+  .product {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  .rightSideOfHeadOfTable {
+    width: 100%;
+  }
+  .rightSideOfHeadOfTable h2 {
+    font-size: 1em;
+  }
+  .union {
+    display: none;
+  }
+  .unionForSizeLessThan768px {
+    display: block;
+  }
+  .item {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .rightSideOfHeadOfTableForSizeLessThan768px {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .rightSideOfHeadOfTableForSizeLessThan768px h2 {
+    font-size: 1em;
+    font-weight: 500;
+    margin: auto;
+  }
+}
+@media (max-width: 410px) {
+  .catalog_list {
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
